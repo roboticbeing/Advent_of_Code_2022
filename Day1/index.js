@@ -1,8 +1,5 @@
-// In case the Elves get hungry and need extra snacks, they need to know which Elf to ask:
-// they'd like to know how many Calories are being carried by the Elf carrying the most Calories.
-// Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
-
 // PART 1
+// Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
 
 const fs = require('fs');
 
@@ -46,8 +43,3 @@ for(i = 0; i < data.length; i++) {
 }
 
 console.log(elf1+elf2+elf3)
-
-
-
-
-
